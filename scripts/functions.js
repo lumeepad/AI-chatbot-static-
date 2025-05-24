@@ -2,7 +2,7 @@
 
 function redirectToChatPage(){
     console.log('Dom is fully loaded')
-    window.location.href = '/chat';
+    window.location.href = 'chat.html';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
