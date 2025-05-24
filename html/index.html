@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/styles.css')}}" />
+    <title>Quiz wiz</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="fillerh"></div>
+      <div class="centered">
+        <h1 class="selectOption">SELECT ACTION TO PERFORM</h1>
+      </div>
+      <div class="fillerh"></div>
+
+      <div class="centered">
+        <div class="group-button">
+          <button id="RedirectButton" class="starting_buttons btn-chat"></button>
+          <p>Chat Quiz Wiz</p>
+        </div>
+
+        <div class="group-button">
+          <button class="starting_buttons upload" id="upload-btn"></button>
+          <input
+            class="upld-btn"
+            type="file"
+            id="pdf-file"
+            accept="application/pdf"
+          />
+         
+          <p>Upload PDF</p>
+        </div>   
+      </div>
+    </div>
+
+    <script src="../static/scripts/functions.js"defer></script>
+  </body>
+</html>
